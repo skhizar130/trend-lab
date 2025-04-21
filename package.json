@@ -1,0 +1,17 @@
+{
+  "name": "trend-lab",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace client dev\" \"yarn workspace server dev\"",
+    "lint": "echo \"Add linting later\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
+
